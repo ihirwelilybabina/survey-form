@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/master.css">
+    <title></title>
+  </head>
+  <body>
+    <h1 id="title">Lily MedTech Survey Form</h1>
+    <div id="form-outer">
+      <p id="description">
+        Intent of this survey is to get your feedback about the services we give. we will base on your feedback to improve quality and service delivery of the company.
+      </p>
+      <h1 id="title">General information</h1>
+      <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+        <div class="rowTab">
+          </div>
+          <div class="rowTab">
+            <div class="labels">
+              <label id="name-label" for="name">Given Names: </label>
+            </div>
+            <div class="rightTab">
+              <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+            </div>
+          </div>
+          <div class="rowTab">
+            <div class="labels">
+              <label id="name-label" for="name">Middle Name (other name): </label>
+            </div>
+            <div class="rightTab">
+              <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+            </div>
+          </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="name-label" for="name"> Surname (Family name): </label>
+          </div>
+          <div class="rightTab">
+            <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="name-label" for="name"> Date of Birth: </label>
+          </div>
+          <div class="rightTab">
+            <input autofocus type="text" name="date of birth" id="date of birth" class="input-field" placeholder="Enter your date of birth" required>
+          </div>
+
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="currentPos">Gender</label>
+          </div>
+          <div class="rightTab">
+            <select id="dropdown" name="currentPos" class="dropdown">
+          <option disabled value>Select an option</option>
+          <option  value="female">female</option>
+          <option value="male">male</option>
+        </select>
+          </div>
+          <h1 id="title">Contact information</h1>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="email-label" for="email"> Email Address: </label>
+          </div>
+          <div class="rightTab">
+            <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+          </div>
+        
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="email-label" for="email"> Mobile Phone: </label>
+          </div>
+          <div class="rightTab">
+            <input type="email" name="mobile phone" id="mobile phone" class="input-field" required placeholder="Enter your phone number">
+          </div>
+
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="email-label" for="email"> Current Address: </label>
+          </div>
+          <div class="rightTab">
+            <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Address">
+          </div>
+          <h1 id="title">General Survey Questions</h1>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="currentPos">Choose among the following categories where you belong</label>
+          </div>
+          <div class="rightTab">
+            <select id="dropdown" name="currentPos" class="dropdown">
+          <option disabled value>Select an option</option>
+          <option  value="Customer">Customer</option>
+          <option value="Supplier">Supplier</option>
+          <option value="Shareholder">Shareholder</option>
+          <option value="others">Other</option>
+        </select>
+          </div>  
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="userRating">When did you last received Service from Lily MedTech company ltd?</label>
+          </div>
+          <div class="rightTab">
+            <ul style="list-style: none;">
+              <li class="radio"><label>in three months<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+              <li class="radio"><label>in six months<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+              <li class="radio"><label>in  a year<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+            </ul>
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="rating-label" for="rating"> Rate the last service you recieved from lily MedTech Company ltd in %</label>
+          </div>
+          <div class="rightTab">
+            <input type="rating" name="rating" id="rating" class="input-field" required placeholder="rate the last service you received">
+          </div>
+         </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="userRating">Are you willing to come back?</b></label>
+          </div>
+          <div class="rightTab">
+            <ul style="list-style: none;">
+              <li class="radio"><label>Definitely<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+              <li class="radio"><label>Maybe<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+              <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+            </ul>
+          </div>
+
+
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="most-like">would you recommand this company for someone else?: </label>
+          </div>
+          <div class="rightTab">
+            <select id="most-like" name="mostLike" class="dropdown">
+          <option disabled selected value>Select an option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="Not Always">not always</option>
+        </select>
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="preferences">Which service would you like us to improve?<br>(Check all that apply): </label>
+          </div>
+          <div class="rightTab">
+            <ul id="preferences" style="list-style: none;">
+              <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Repair</label></li>
+              <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Calibration</li>
+              <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">User training</label></li>
+              <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Preventive Maintainance</label></li>
+              <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Medical Equipments delivery</label></li>
+              <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">Others not metioned</label></li>
+            </ul>
+          </div>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="comments">Feel free to Comment and to leave your Suggestions</label>
+          </div>
+          <div class="rightTab">
+            <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="please leave here your comments here..."></textarea>
+          </div>
+          <p id="description">
+        "Thanks for the time you took to fill in this survey form,and thanks for your contribution towards the future of the company". <form action=""></form>
+          </p>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+
+  </body>
+</html>
